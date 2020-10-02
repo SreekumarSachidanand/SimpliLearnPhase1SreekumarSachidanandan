@@ -11,7 +11,6 @@ public class displayFile implements LockedMeAppOperationsDisplay {
 
     @Override
     public void displayFiles(String FolderPath) throws IOException {
-        String testpath="root";
         Files.list(Paths.get(FolderPath)).filter(Files::isRegularFile).sorted().forEach(System.out::println);
     }
 

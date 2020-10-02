@@ -1,4 +1,8 @@
 package businessoperationskelton;
 
-public class LockedMeAppOperationsDelete {
+import java.io.IOException;
+
+public interface LockedMeAppOperationsDelete {
+
+    public void deleteFileIfExists(String folderpath,String filename) throws IOException;
 }
