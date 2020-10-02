@@ -1,6 +1,7 @@
 package businessoperationskelton;
 
+import java.io.IOException;
+
 public interface LockedMeAppOperationsSearch {
-    public String searchFile(String FolderPath);
-    public boolean isFileExists(String FolderPath);
+    public String searchFile(String FolderPath,String FileName) throws IOException;
 }
