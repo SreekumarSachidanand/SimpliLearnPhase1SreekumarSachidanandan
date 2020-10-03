@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class TestApp {
     public static void main(String args[]) throws IOException {
     try {
-
+        System.out.println("");
         System.out.println("******Welcome To LockedMe File Operations ******");
         System.out.println("");
         boolean exit = false;
