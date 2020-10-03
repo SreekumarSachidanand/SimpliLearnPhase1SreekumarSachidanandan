@@ -1,0 +1,43 @@
+===========Project Read Me===========
+
+Git Hub Link :- 
+
+Specification document - 
+
+Overview:
+
+==>Project follows a Scrum Methodology
+==>Sprint Duration : 5 business days
+==>Total Sprint required : 2 
+
+Story Points = 10
+
+Create Console App For Locked Me Operations - 1
+Analyse Requirements Of LockedMeApp -2
+Create Add Method For File Creation -1
+Create Delete Method For Locked Me App-1
+Unit Test of Create And Delete Methods And Defect Fixes-1
+Create Method for Search Operation-1
+Create Method For Display Operation-1
+Unit Testing of Search and Display Operation-1
+Environment Setup, Daily Stand Up, Retrospective Meetings, Sprint Demo-1
+
+
+Java concepts being used in the project  :
+Classes,Interfaces,java nio,Exception Handling,Scanner
+
+Tools : intelliJ
+
+
+Product’s capabilities, appearance, and user interactions :
+
+1)Application is an console based menu driven application.
+2)User Selects the available menu options from the console.
+3)Available Options are Add A File,Delete,Search ,Display,Quit
+
+
+USP :
+1)Application options written in one fit for all menu based applications
+2)Next Free Upgrade includes File Handling in PowerPoint,Excel and Word.
+
+

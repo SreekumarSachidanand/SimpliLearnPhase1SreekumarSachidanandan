@@ -8,6 +8,10 @@ import businessoperations.addFile;
 import java.io.IOException;
 import java.util.Scanner;
 
+/*
+@author : Sreekumar Sachidanandan
+@version : 1.0
+ */
 
 public class TestApp {
     public static void main(String args[]) throws IOException {
@@ -69,7 +73,7 @@ public class TestApp {
 
     }
     catch (Exception e){
-        System.out.println("Exception Occured"+" "+"Please check the options entered...");
+        System.out.println("Exception Occurred"+" "+"Please check the options entered...");
     }
 
     }
