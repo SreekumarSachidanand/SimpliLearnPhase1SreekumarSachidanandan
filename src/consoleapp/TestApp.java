@@ -8,9 +8,11 @@ import businessoperations.addFile;
 import java.io.IOException;
 import java.util.Scanner;
 
-/*
-@author : Sreekumar Sachidanandan
-@version : 1.0
+/**
+ *@author : Sreekumar Sachidanandan
+ *@version : 1.0
+ * This is the main class of the application
+ * User enters input from the console
  */
 
 public class TestApp {

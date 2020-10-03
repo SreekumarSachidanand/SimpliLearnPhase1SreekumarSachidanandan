@@ -8,6 +8,14 @@ import java.io.IOException;
 
 public class searchFile implements LockedMeAppOperationsSearch{
 
+    /**Clas Name : searchFile
+     * Method Name : searchFile
+     * This method searches for a file in the directory irrespective of case -sensitivity
+     * @param FolderPath
+     * @param FileName
+     * @return String
+     * @throws IOException
+     */
 
     @Override
     public String searchFile(String FolderPath,String FileName) throws IOException {

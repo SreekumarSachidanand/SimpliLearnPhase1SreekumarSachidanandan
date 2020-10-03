@@ -9,6 +9,14 @@ import java.nio.file.Paths;
 
 public class deleteFile implements LockedMeAppOperationsDelete {
 
+    /**
+     * Class Name : deleteFile
+     * Method Name : deleteFileIfExists
+     * This method deletes file if it exists in the directory else it will display file doesn't exist.
+     * @param folderpath
+     * @param filename
+     * @throws IOException
+     */
     @Override
     public void deleteFileIfExists(String folderpath, String filename) throws IOException {
         displayFile obj = new displayFile();
